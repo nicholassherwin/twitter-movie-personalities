@@ -16,7 +16,7 @@ From here, I created a relational database that included the following informati
 
 Next, I created a script that ran each individual character's dialogue through the IBM Watson Personality Insights program and returned back their detailed big five personality profile.
 
-At this point, I had a 3,000+ database of characters and their associagted personality profiles, so I moved on to Twitter where I used Tweepy to pull the last 200 tweets from any given user and wrote a similar script to also run their personality through IBM.
+At this point, I had a 3,000+ database of characters and their associated personality profiles, so I moved on to Twitter where I used Tweepy to pull the last 200 tweets from any given user and wrote a similar script to also run their personality through IBM.
 
 The Twitter profile was then compared to all characters in the relational database and using cosine similarity, I printed out the character in each genre that was most similar to the user. 
 
